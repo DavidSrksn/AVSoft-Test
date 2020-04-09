@@ -11,10 +11,10 @@ import UIKit
 
 class PDFConfigurator{
     var image: UIImage {
-        if let image = UIImage(named: "AVSoft"){
+        if let image = UIImage(named: "АВСОФТ_190411_сас_АРПП_Актуализация информации на сайте_Логотип_v1.0"){
             return image
         }
-        return UIImage(named: "plus")!
+        return UIImage(systemName: "plus")!
     }
     
     let title: String = "Профиль"
